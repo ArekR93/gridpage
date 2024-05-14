@@ -1,3 +1,19 @@
-*{
-    box-sizing: border-box;
+@use "./colors" as *;
+@use "./animations" as *;
+@use "./small" as *;
+@use "./medium" as *;
+@use "./large" as *;
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
 }
+
+body {
+	font-family: "Raleway", sans-serif;
+	font-size: 1.6rem;
+}
+

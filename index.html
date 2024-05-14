@@ -4,9 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2178fe528c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/hamburger.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    
+    <header class="header">
+        <button class="hamburger hamburger--spring" type="button">
+            <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+            </span>
+        </button> 
+
+        <nav class="nav nav-mobile">
+            <a href="#invest">invest</a>
+            <a href="#plan">plan</a>
+            <a href="#contactn">contact</a>
+        </nav>
+        <nav class="nav nav-desktop">
+            <a href="#invest">invest</a>
+            <a href="#plan">plan</a>
+            <a href="#contactn">contact</a>
+        </nav>
+
+        <div class="header__text">
+            <h1 class="company-name">Diamonds, Gold & Money</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error accusamus inventore consequatur.</p>
+        </div>
+
+        <div class="header__img">
+            <div class="header__shadow"></div>
+        </div>
+
+        <a href="#cards">
+            <div class="header__arrow">
+                <img src="img/icons/arrow-down.svg" alt="">
+            </div>
+        </a>
+
+        <img src="img/icons/square.svg" alt="">
+        <img src="img/icons/square.svg" alt="">
+
+    </header>
+
+    <footer class="footer">
+        <p class="footer__bottom-text">&copy; <span><div class="footer__year"></div></span> DG&M Corporation</p>
+    </footer>
 </body>
 </html>
