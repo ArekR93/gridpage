@@ -100,6 +100,10 @@
     .hamburger{
         display: none;
     }
+
+    .gallery{
+        grid-template-columns: repeat(8, 1fr);
+    }
 }
 
 @media(min-width: 1200px){
