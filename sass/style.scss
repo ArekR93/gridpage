@@ -22,6 +22,7 @@ h1.company-name {
 	font-size: 3rem;
 	font-family: "Cinzel", serif;
 	color: $gold;
+	z-index: 10;
 }
 
 .wrapper {
@@ -72,6 +73,7 @@ h1.company-name {
 
 		p {
 			font-weight: 200;
+			z-index: 10;
 		}
 	}
 
@@ -116,7 +118,7 @@ h1.company-name {
 }
 
 .hamburger {
-	position: absolute;
+	position: fixed;
 	top: 3em;
 	left: 1em;
 	transform: translateY(-50%);

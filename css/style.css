@@ -44,6 +44,7 @@ h1.company-name {
   font-size: 3rem;
   font-family: "Cinzel", serif;
   color: #d6c78e;
+  z-index: 10;
 }
 
 .wrapper {
@@ -92,6 +93,7 @@ h1.company-name {
 }
 .header__text p {
   font-weight: 200;
+  z-index: 10;
 }
 .header__img {
   grid-row: 1/2;
@@ -129,7 +131,7 @@ h1.company-name {
 }
 
 .hamburger {
-  position: absolute;
+  position: fixed;
   top: 3em;
   left: 1em;
   transform: translateY(-50%);
